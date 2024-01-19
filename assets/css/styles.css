@@ -479,6 +479,7 @@ input {
 .discover__title, 
 .discover__description {
   color: var(--white-color);
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 .discover__title {
