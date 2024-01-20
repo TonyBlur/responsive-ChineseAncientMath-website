@@ -221,6 +221,7 @@ input {
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+  width: 90px;
 }
 
 .nav__toggle {
@@ -560,12 +561,18 @@ input {
   right: 0;
 }
 
+.NzhangVideo {
+  height: 460px; 
+  width: 100%;
+}
+
 /*=============== VIDEO ===============*/
 .video__container {
   padding-bottom: 1rem;
 }
 
 .video__description {
+  color: var(--text-color-light);
   text-align: center;
   margin-bottom: var(--mb-2-5);
 }
@@ -703,7 +710,7 @@ input {
 }
 
 .sponsor__content:hover .sponsor__img {
-  filter: invert(0.3);
+  filter: invert(0.2);
 }
 
 .sponsor__img {
@@ -1067,10 +1074,11 @@ input {
   }
 }
 
-/* iframe size adjust */
+/* function iframe size adjust */
 .function_frame {
   width: 100%;
   height: 120vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1000px) {
@@ -1082,5 +1090,28 @@ input {
 @media screen and (max-width: 777px) {
   .function_frame {
     height: 180vh;
+  }
+}
+
+/* chat iframe size adjust */
+.chat {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 150vh;
+}
+
+.chat_frame {
+  width: 90%;
+  height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1220px) {
+  .chat_frame {
+    width: 100%;
+    height: 120vh;
+    border-radius: 0;
   }
 }
