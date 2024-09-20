@@ -1,5 +1,5 @@
 # Responsive Website 🌊
-## [Visit our website!](https://ancientmath.tblu.site)
+## [Visit our website!](https://ancientmath.tblu.xyz)
 ###  Responsive Chinese Ancient Math Website ➕➖✖️➗
 
 - Travel website to the most beautiful beaches, using HTML, CSS & JAVASCRIPT.
